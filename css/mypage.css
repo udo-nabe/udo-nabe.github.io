@@ -15,8 +15,7 @@ body {
     color: white;
 
     text-align: center;
-
-    margin: 0;
+    margin: 0 auto;
 }
 
 .title-container {
@@ -28,4 +27,25 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: repeat-y;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.hamburger-button {
+    background-color: transparent;
+}
+
+button {
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkslategray;
+}
+
+button:active {
+    background-color: darkgray;
 }
